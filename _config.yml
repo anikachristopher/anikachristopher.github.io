@@ -5,7 +5,7 @@ header-img: img/home-bg.png
 email: anika.mchristopher@gmail.com
 copyright_name: Anika Morris-Christopher
 description: > # this means to ignore newlines until "baseurl:"
-  Challenging my transition into tech 
+  Challenging myself to  transition into tech 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: AnikaChristoph4
 github_username:  anikachristopher
