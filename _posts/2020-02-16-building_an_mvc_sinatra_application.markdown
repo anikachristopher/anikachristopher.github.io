@@ -21,6 +21,10 @@ This component is responsible for rendering anything the user sees when interact
 **Controllers**
 This component works as the go between for the two previous components. It accepts input and converts it to commands for the models and views.
 
+Using the Corneal gem in tandem with the Sinatra famework, created much of the template for this project. It set up all files and strructure and the contents of these files were updated to essentially build the project. Sinatra made it that much simpler to execute, allowing the creating of a simple CMS which sends requests to the server and then with routes, sends a request to the view to render inforrmation back to the server.
+
+
+
 
 
 
