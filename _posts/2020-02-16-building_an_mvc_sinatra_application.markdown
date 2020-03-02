@@ -21,7 +21,10 @@ This component is responsible for rendering anything the user sees when interact
 **Controllers**
 This component works as the go between for the two previous components. It accepts input and converts it to commands for the models and views.
 
-Using the Corneal gem in tandem with the Sinatra famework, created much of the template for this project. It set up all files and strructure and the contents of these files were updated to essentially build the project. Sinatra made it that much simpler to execute, allowing the creating of a simple CMS which sends requests to the server and then with routes, sends a request to the view to render inforrmation back to the server.
+Using the Corneal gem in tandem with the Sinatra famework created much of the template for this project. It set up all of the files as well as the structure. The contents of these files were updated to essentially build the project. Working mainly in the app folder where the models, views and controllers folders are located, the body of your project is created, linking to each other by way of inheritances, embedded ruby and HTML. 
+
+The Sinatra framework running on top of Rack allows for the creation of simple and dynamic Ruby web applications. At its core it is essentially sending requests to the server and then, using routes, sending a request to the view to render information back to the server.
+
 
 
 
