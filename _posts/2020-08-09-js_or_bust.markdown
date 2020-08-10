@@ -1,0 +1,18 @@
+---
+layout: post
+title:      "JS or Bust!"
+date:       2020-08-10 03:13:37 +0000
+permalink:  js_or_bust
+---
+
+
+
+Building a music app has been a long awaited goal of mine and finally I can get a taste of doing just that with my Rails/JS project. This project is built in two parts, the back end Rails side and the front end JavaScript side. Starting with the back end first is by far the most productive way to go. 
+
+Enter Rails scaffold! Finally getting to give this generator a whirl and it did not disappoint. Use of this generator really is what propelled the build and cut down the length of time to be spent on this segment of the back end.
+
+My backend is seeded with data using the Faker gem. The process begins with finding the gem on https://rubygems.org/ and placing it into your gemfile. Once you bundle install, the gem works by providing fake data which populates within your application. The information is presented in categories but suprisingly for the music category, the song information is pretty limited and can only be sourced from the specific artists they outline. A bit of a setback but a big time saver in the long run.
+
+Once it's seeded though, the magic can begin.
+
+
