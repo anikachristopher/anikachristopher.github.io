@@ -1,18 +1,33 @@
 ---
 layout: post
-title:      "JS or Bust!"
+title:      "Oh JavaScript!"
 date:       2020-08-09 23:13:38 -0400
 permalink:  js_or_bust
 ---
 
 
 
-Building a music app has been a long awaited goal of mine and finally I can get a taste of doing just that with my Rails and JavaScript project. This project is built in two parts, the back end Rails side and the front end JavaScript side. Starting with the back end first is by far the most productive way to go. 
+It's a pandemic, schools are remote, parents are teachers and I needed help! 
 
-Enter Rails scaffold! Finally getting to give this generator a whirl and it did not disappoint. Use of this generator really is what propelled the build and cut down the length of time to be spent on this segment of the back end.
+So I came up with the idea of builiding an application that would allow kids who are fully remote to get some supplemental learning done. An After School web app seemed like a valuable tool and I was curious about building one.
 
-My back end is seeded with data using the Faker gem. The process begins with finding the gem on https://rubygems.org/ and placing it into your gemfile. Once you bundle install, the gem works by providing fake data which populates within your application. The information is presented in categories but suprisingly for the music category, the song information is pretty limited and can only be sourced from the specific artists they outline. A bit of a setback but a big time saver in the long run.
+I built this project in two parts using a back end Rails API database side and the front end JavaScript side. My backend was built first to provide functionality and seed info that were required for the frontend.
 
-Once it's seeded though, the magic can begin.
+Enter Rails Scaffold generator! Finally getting to give this generator a whirl and it did not disappoint. Outside of manually entering my seed data and making a couple tweaks here and there, use of this generator made the database generation almost automatic. 
+
+Ensuring that my CORS gem was bundled and tables migrated, moving through the backend was somewhat effortless. 
+
+On the front-end was a slightly different story!
+
+My first snag was buillding a DOM I could manipulate which admittedly took a few tries. My inital attempt was overdoing it to the point that I was falling victim to hard-coding. But to show the real functionality of DOM manipulation using JavaScript meant less hard-code and more `fetch`ing.
+
+`fetch`ing in this JavaScript project was the process of using the API backend URL, assigning its endpoint and retrieving information in the form of hashes which could then be manipulated to suit the project's functionality requirements. 
+
+A standard `fetch` request is made up of the inital call to the database URL and corresponding endpoint, which, using a `.then` method, returns an inital hash of information in the form of a `promise`. The standard procedure for this initial `promise` is to convert it to JSON before attempting to manipulate it. Once converted to JSON it returns yet another promise after the `.then` method is called again which we can use to achieve some desired functionality. 
+
+`fetch`ing turned out to be a great tool during this build. In addition to its flexibility, it made for a very dynamically created site which could easily be updated if I ever decided to make changes, avoiding all the manual labor that comes with hard-coding.
+
+Many class methods and functions later, my application is fully functional. I will explore building additional features for this application but this introduction to JavaScript is already showing itself to be the most valuable coding language I have learned yet!
+
 
 
