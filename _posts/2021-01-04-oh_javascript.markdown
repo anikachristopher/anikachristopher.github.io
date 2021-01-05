@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Oh JavaScript!"
-date:       2021-01-05 04:19:11 +0000
+date:       2021-01-04 23:19:12 -0500
 permalink:  oh_javascript
 ---
 
@@ -21,7 +21,7 @@ Ensuring that my CORS gem was bundled and tables migrated, moving through the ba
 
 On the front-end was a slightly different story!
 
-My first snag was buillding a DOM I could manipulate which admittedly took a few tries. My inital attempt was overdoing it to the point that I was falling victim to hard-coding. But to show the real functionality of DOM manipulation using JavaScript meant less hard-code and more `fetch`ing.
+My first snag was building a DOM I could manipulate which admittedly took a few tries. My inital attempt was overdoing it to the point that I was falling victim to hard-coding. But to show the real functionality of DOM manipulation using JavaScript meant less hard-code and more `fetch`ing.
 
 `fetch`ing in this JavaScript project was the process of using the API backend URL, assigning its endpoint and retrieving information in the form of hashes which could then be manipulated to suit the project's functionality requirements. 
 
