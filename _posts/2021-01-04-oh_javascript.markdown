@@ -6,7 +6,7 @@ permalink:  oh_javascript
 ---
 
 
-The content of your blog post goes here.# Oh JavaScript!
+Oh JavaScript!
 
 
 It's a pandemic, schools are remote, parents are teachers and I needed help! 
