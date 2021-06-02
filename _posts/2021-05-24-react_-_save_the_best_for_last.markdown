@@ -1,17 +1,16 @@
 ---
 layout: post
 title:      "React - Save the Best for Last"
-date:       2021-05-24 12:54:31 +0000
+date:       2021-05-24 08:54:32 -0400
 permalink:  react_-_save_the_best_for_last
 ---
 
 
-Building a music app has been a long awaited goal of mine and finally I can get a taste of doing just that with my Rails/JS project. This project is built in two parts, the back end Rails side and the front end JavaScript side. Starting with the back end first is by far the most productive way to go. 
+Components...Props...State....all the things that will ensure you're never late!
 
-Enter Rails scaffold! Finally getting to give this generator a whirl and it did not disappoint. Use of this generator really is what propelled the build and cut down the length of time to be spent on this segment of the back end.
+React is by far the fastest tech I've learned and I had a great time learning it. I navigate the world with new eyes, seeing everything through the lens of a component, functioning independently but also as part of a whole, bigger and more beautiful story.
 
-My backend is seeded with data using the Faker gem. The process begins with finding the gem on https://rubygems.org/ and placing it into your gemfile. Once you bundle install, the gem works by providing fake data which populates within your application. The information is presented in categories but suprisingly for the music category, the song information is pretty limited and can only be sourced from the specific artists they outline. A bit of a setback but a big time saver in the long run.
+Components let you split your user interface into independent, reusable chunks of code that allow for tweaking on an isolated level. Working together with components are the props and state which help determine how that component behaves. Compartmentalization at its best.
 
-Once it's seeded though, the magic can begin.
-
+Exporting and importing form the basis of connectivity for these fragments of code and together with Redux, React is by far the most efficient and enjoyable programming tool I've encountered. Building on my foundation through the exploration of more app building in React is definitely my new priority.
 
